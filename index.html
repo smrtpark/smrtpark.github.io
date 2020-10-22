@@ -84,6 +84,45 @@
             transition: all ease-in-out 250ms;
         }
 
+        .button {
+            display:inline-block;
+            background:rgb(14,124,0);
+            padding:10px 20px;
+            border-radius:5px;
+            text-decoration:none;
+            color:white;
+            text-align: center;
+            margin: 50px;
+
+        }
+
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button span:after {
+            content: '\00bb';
+            position: absolute;
+            font-weight: 30;
+            opacity: 0;
+            top: -10;
+            right: -20px;
+            transition: 0.5s;
+            font-size: 30px;
+        }
+
+        .button:hover span {
+            padding-right: 25px;
+        }
+
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
     </style>
     <head>
 
@@ -94,7 +133,7 @@
         <div class="nav">
             <div class="container">
                 <div class="logo">
-                    <a href="index.html"><h1>SMART P<img width="29" height="25" style="padding: 0 3px 0 3px;"src="REALPNGCAR.png" alt="car">RK</h1></a>
+                    <a href="index.html"><h1>SMART P<img width="29" height="23" style="padding: 0 3px 0 3px;"src="REALPNGCAR.png" alt="car">RK</h1></a>
                 </div>
                 <div class="options">
                     <a href="about.html">OUR TEAM</a>
@@ -108,7 +147,7 @@
         <div class="text">
             <h1>The Smart Way to Park.</h1>
             <h2>Parking just got smarter.</h2>
-            <a href="about.html" class="button">Learn More</a>
+            <a href="about.html" class="button"><span>Learn More</span></a>
         </div>
 
 
