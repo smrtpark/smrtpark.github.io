@@ -114,4 +114,16 @@ body{
    right: 0;
 }
 
+.text .about{
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text .about p{
+
+  font-weight: 300;
+  
+}
+
 
