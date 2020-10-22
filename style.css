@@ -1,27 +1,117 @@
-.header {
-    background:#082d0f;
-  }
-  .header .logo {
-    float:left;
-    width:20%;
-  }
-  
-  .header .logo img {
-    height:20px;
-  }
-  
-  .header .navigation {
-    float:right;
-    width:80%;
-    text-align:right;
-  }
-  
-  .header a {
-    color:white;
-    display:inline-block;
-    padding:20px 10px;
-    margin:0 10px;
-    text-decoration:none;
-  }
+body{
+  background-image: 
+   linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.7)),
+   url("parking4.jpeg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+} 
+
+.text{
+   text-align: center;
+   font-size: 22px;
+   color: white;
+   font-family: 'Helvetica Neue';
+   font-weight: 500;
+   position:relative;
+   top: 30%;
+} 
+
+.container{
+   width: 80%;
+   margin: 0 auto;
+}
+
+.nav {
+   background-color: black;
+   overflow: hidden;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+
+}
+
+.nav a{
+   float: right;
+   color: #f2f2f2;
+   text-decoration: none;
+   font-family: 'Helvetica Neue';
+   font-weight: 500;
+   transition: 0.5s;
+
+}
+.nav .options a{
+   float: right;
+   color: #f2f2f2;
+   text-decoration: none;
+   font-family: 'Helvetica Neue';
+   font-weight: 500;
+   padding: 30px 20px;
+
+}
+.nav .logo{
+   float: left;
+   color: white;
+   position: relative;
+   font-family: 'Helvetica Neue';
+   padding: 0 10px;
+}
+
+
+
+.nav a:hover {
+   color: rgb(14, 124, 0);
+   text-underline-position: auto;
+   transition: 0.5s;
+}
+
+.nav a:hover {
+   color: rgb(14, 124, 0);
+   text-underline-position: auto;
+   transition: 0.5s;
+}
+
+
+
+.button {
+   display:inline-block;
+   background:rgb(14,124,0);
+   padding:10px 20px;
+   border-radius:5px;
+   text-decoration:none;
+   color:white;
+   text-align: center;
+   margin: 50px;
+   font-size: 17px;
+
+}
+
+.button span {
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   transition: 0.5s;
+}
+
+.button span:after {
+   content: '\00bb';
+   position: absolute;
+   font-weight: 30;
+   opacity: 0;
+   top: -12;
+   right: -20px;
+   transition: 0.5s;
+   font-size: 35px;
+}
+
+.button:hover span {
+   padding-right: 25px;
+}
+
+.button:hover span:after {
+   opacity: 1;
+   right: 0;
+}
 
 
