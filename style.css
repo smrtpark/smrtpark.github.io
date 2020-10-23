@@ -134,20 +134,19 @@ body{
 
 .text .about .tTable{
   border: 3px rgb(14,124,0);
-  background:rgb(0,0,0);
 }
 
-.text .about .tTable td{
-  color: white;
+.text .about .tTable .description{
   text-align: Left;
   font-size: 15px;
   padding: 5px;
   width: 200px;
-  
+  color: #F2F2F2;  
 }
 .text .about .tTable .Names {
   text-align: center;
   font-size: 25px;
   padding: 10px;
+  color: #F2F2F2;
 }
 
