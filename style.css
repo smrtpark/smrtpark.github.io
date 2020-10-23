@@ -142,14 +142,14 @@ body{
   padding: 5px;
   width: 200px;
   color: #F2F2F2;
-  background black;
+  background: rgb(0,0,0);
 }
 .text .about .tTable .Names {
   text-align: center;
   font-size: 25px;
   padding: 10px;
   color: #F2F2F2;
-  background black;
+  background: rgb(0,0,0);
 }
 .text .about .tTable dv {
  width: 200px
