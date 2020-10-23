@@ -137,7 +137,7 @@ body{
   background:rgb(0,0,0);
 }
 
-.text .about .tTable td, tr{
+.text .about .tTable td, th{
   WIDTH: 200;
   color: white;
   text-align: center;
