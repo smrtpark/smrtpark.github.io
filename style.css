@@ -132,10 +132,14 @@ body{
   
 }
 
+.text .about .tTable{
+  border: 3px rgb(14,124,0);
+}
+
 .text .about .tTable .Names {
-  
   text-align: center;
   font-size: 20px;
-  background:rgb(14,124,0);
+  background:rgb(0,0,0);
+  padding: 10px;
 }
 
