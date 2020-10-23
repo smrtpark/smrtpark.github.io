@@ -141,12 +141,16 @@ body{
   font-size: 15px;
   padding: 5px;
   width: 200px;
-  color: #F2F2F2;  
+  color: #F2F2F2;
+  background black;
 }
 .text .about .tTable .Names {
   text-align: center;
   font-size: 25px;
   padding: 10px;
   color: #F2F2F2;
+  background black;
 }
-
+.text .about .tTable dv {
+ width: 200px
+}
