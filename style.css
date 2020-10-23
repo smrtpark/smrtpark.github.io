@@ -132,4 +132,10 @@ body{
   
 }
 
+.text .about .tTable .Names {
+  
+  text-align: center;
+  font-size: 20px;
+  background:rgb(14,124,0);
+}
 
