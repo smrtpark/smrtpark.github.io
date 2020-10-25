@@ -132,29 +132,40 @@ body{
   
 }
 
-th{
+.pricing th{
    font-size: 20px;
    background-color: rgb(14,124,0);
 }
 
-td{
+.pricing td{
    font-size: 15px;
 }
 
-table, th, td{
+.pricing table{
+   width: 100%;
+   border-collapse: collapse;
+   border: 10px white;
+}
+
+
+.pricing th, td, tr{
    color: white;
-   width: 60%;
-   position: relative;
    top: 50px;
    left: 100px;
-   border: 2px solid;
    padding: 15px;
    padding-left: 10px;
    padding-right: 10px;
    text-align: center;
-
+   
 }
+.pricing tr:nth-child(even) td {
+   background:#8e8e8e;
+ }
 
+.pricing tr:nth-child(odd) td {
+   background:#b6bbb4;
+ }
+ 
 .table tr{
    color: white;
 }
@@ -163,12 +174,5 @@ table, th, td{
   border: 3px rgb(14,124,0);
 }
 
- .about img {
 
-   width: 200px;
-   height:200px;
-   object-fit:cover;
-   border-radius: 50%;
-   background-position: 50%;
-
- }
+ 
