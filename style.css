@@ -142,23 +142,30 @@ body{
 }
 
 .pricing table{
-   table-layout: fixed;
-   border-collapse: collapse;
    width: 100%;
+   border-collapse: collapse;
+   border: 10px white;
 }
 
 
-.pricing table, th, td, tr{
+.pricing th, td, tr{
    color: white;
-   position: relative;
    top: 50px;
    left: 100px;
    padding: 15px;
    padding-left: 10px;
    padding-right: 10px;
    text-align: center;
+   
 }
+.pricing tr:nth-child(even) td {
+   background:#8e8e8e;
+ }
 
+.pricing tr:nth-child(odd) td {
+   background:#b6bbb4;
+ }
+ 
 .table tr{
    color: white;
 }
