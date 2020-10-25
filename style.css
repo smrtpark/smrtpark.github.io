@@ -171,6 +171,21 @@ body{
  
 /* Team page table */
 
+.teamText {
+
+   font-size: 22px;
+   color: white;
+   font-family: 'Helvetica Neue';
+   font-weight: 500;
+   position:relative;
+   top: 30%;
+   text-align: left;
+   width: 80%;
+   margin: 0 auto;
+   top: 15%;
+
+}
+
 .text .about .tTable{
   border: 3px rgb(14,124,0);
 }
