@@ -37,7 +37,7 @@ body{
    color: #f2f2f2;
    text-decoration: none;
    font-family: 'Helvetica Neue';
-   font-weight: 500;
+   font-weight: 600;
    transition: 0.5s;
 
 }
@@ -163,21 +163,3 @@ table, th, td{
   border: 3px rgb(14,124,0);
 }
 
-.text .about .tTable .description{
-  text-align: Left;
-  font-size: 15px;
-  padding: 5px;
-  width: 200px;
-  color: #F2F2F2;
-  background: rgb(0,0,0);
-}
-.text .about .tTable .Names {
-  text-align: center;
-  font-size: 25px;
-  padding: 10px;
-  color: #F2F2F2;
-  background: rgb(0,0,0);
-}
-.text .about .tTable dv {
- width: 200px
-}
