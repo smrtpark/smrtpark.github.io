@@ -2,14 +2,18 @@
 //This code displays the logo along with the menu bar items in the top navigation bar
 
 var optionsDiv = document.getElementById("options");
+
 var a = 0;
 var a1 = 0;
 
 var options = ["OUR TEAM","PRICING","ABOUT SMART PARK","HOME"];
 var href = ["team.html","pricing.html","about.html","index.html"];
+
 var logoDiv = document.getElementById("logo");
+
 var logoText1 = "SMART P";
 var logoText2 = "RK";
+
 var logoh1 = document.createElement('h1');
 var logoImage = document.createElement('img');
 
