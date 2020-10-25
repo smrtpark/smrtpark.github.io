@@ -1,0 +1,33 @@
+Overall look and design of Smart Park
+-------------------------------------
+The overall look of Smart Park is intended to be modern and elegant.
+The site should be minimalist and user friendly since this app is intended to be used by different age groups and demographics.
+
+
+Colours
+-------
+The 3 main colours used in the Smark Park website are black, white and green.
+The colours are purposefully toned down in order to carry through the modern and elegant look of the website.
+
+These are the hex values for the colours of the website:
+#000000
+#FFFFFF
+#0E7C00
+
+Typography
+----------
+We have used the Helvetica Neue font.
+
+Icons
+-----
+The icons on our website match the modern feel of the rest of the website. 
+They are simple and have a cool colour fade-in/fade-out effect when a user hovers over them.
+
+Links
+-----
+Links are not explicitly displayed on the website; rather, they are stylishly integrated into the icons in the navbar 
+and in the various buttons on the website.
+
+Buttons
+-------
+The buttons are flat, green and have a cool animation that allows them to expand when a user hovers over them.

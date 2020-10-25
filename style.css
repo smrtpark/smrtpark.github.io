@@ -132,4 +132,13 @@ body{
   
 }
 
+.table{
+   position: fixed;
+   right: 400px;
+}
+
+.table tr{
+   color: white;
+}
+
 
