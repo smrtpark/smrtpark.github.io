@@ -132,13 +132,52 @@ body{
   
 }
 
-.table{
-   position: fixed;
-   right: 400px;
+th{
+   font-size: 20px;
+   background-color: rgb(14,124,0);
+}
+
+td{
+   font-size: 15px;
+}
+
+table, th, td{
+   color: white;
+   width: 60%;
+   position: relative;
+   top: 50px;
+   left: 100px;
+   border: 2px solid;
+   padding: 15px;
+   padding-left: 10px;
+   padding-right: 10px;
+   text-align: center;
+
 }
 
 .table tr{
    color: white;
 }
 
+.text .about .tTable{
+  border: 3px rgb(14,124,0);
+}
 
+.text .about .tTable .description{
+  text-align: Left;
+  font-size: 15px;
+  padding: 5px;
+  width: 200px;
+  color: #F2F2F2;
+  background: rgb(0,0,0);
+}
+.text .about .tTable .Names {
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  color: #F2F2F2;
+  background: rgb(0,0,0);
+}
+.text .about .tTable dv {
+ width: 200px
+}
