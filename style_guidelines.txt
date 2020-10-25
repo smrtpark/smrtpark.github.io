@@ -16,17 +16,17 @@ These are the hex values for the colours of the website:
 
 Typography
 ----------
-We have used the Helvetica Neue font.
+We have used the Helvetica Neue font which creates a modern feel and look for the website.
 
 Icons
 -----
 The icons on our website match the modern feel of the rest of the website. 
-They are simple and have a cool colour fade-in/fade-out effect when a user hovers over them.
+They are simple and have a cool colour fade-in/fade-out effect when a user hovers over them. This also applies to the main logo.
 
 Links
 -----
 Links are not explicitly displayed on the website; rather, they are stylishly integrated into the icons in the navbar 
-and in the various buttons on the website.
+and in the various buttons on the website. They also come to life when hovering over them, as they turn from white to green.
 
 Buttons
 -------
