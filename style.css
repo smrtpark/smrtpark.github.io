@@ -132,18 +132,24 @@ body{
   
 }
 
-th{
+.pricing th{
    font-size: 20px;
    background-color: rgb(14,124,0);
 }
 
-td{
+.pricing td{
    font-size: 15px;
 }
 
-table, th, td{
+.pricing table{
+   table-layout: fixed;
+   border-collapse: collapse;
+   width: 100%;
+}
+
+
+.pricing table, th, td, tr{
    color: white;
-   width: 60%;
    position: relative;
    top: 50px;
    left: 100px;
@@ -152,7 +158,6 @@ table, th, td{
    padding-left: 10px;
    padding-right: 10px;
    text-align: center;
-
 }
 
 .table tr{
