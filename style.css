@@ -188,9 +188,8 @@ body{
 
 }
 
-.teamText .about .tTable .description {
-  
-    text-align: left;
+.description { 
+    align: left;
 }
 
 .text .about .tTable{
