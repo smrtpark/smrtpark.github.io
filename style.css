@@ -188,6 +188,11 @@ body{
 
 }
 
+.teamText .about .tTable .description {
+  
+    text-align: left;
+}
+
 .text .about .tTable{
   border: 3px rgb(14,124,0);
 }
