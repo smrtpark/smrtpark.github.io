@@ -75,7 +75,7 @@ body{
    transition: 0.5s;
 }
 
-/* buttons at the bottom of page for easier navigation */
+/* button on the main and privacy page for easier navigation */
 
 .button {
    display:inline-block;
@@ -142,7 +142,7 @@ body{
 
 .about th{
    font-weight: 300;
-   padding: 30px;
+   padding: 20px;
    font-size: 20px;
    text-align: justify;
 }
@@ -153,8 +153,8 @@ body{
 
 .about_img{
    display: block;
-   padding-top: 20px;
-   padding-bottom: 45px;
+   padding-top: 60px;
+   padding-bottom: 60px;
    margin-left: auto;
    margin-right: auto;
 }
@@ -198,26 +198,7 @@ body{
    background:#b6bbb4;
  }
  
-/* Team page table */
-
-.teamText {
-
-   font-size: 22px;
-   color: white;
-   font-family: 'Helvetica Neue';
-   font-weight: 500;
-   position:relative;
-   top: 30%;
-   text-align: left;
-   width: 80%;
-   margin: 0 auto;
-   top: 15%;
-
-}
-
-.text .about .tTable{
-  border: 3px rgb(14,124,0);
-}
+/* Team page */
 
 .members {
    padding-left: 16px;
@@ -240,6 +221,8 @@ body{
    text-decoration: white;
 }
 
+/* Copyright and Privacy policy */
+
 .copyright {
 
    text-align: center;
@@ -251,6 +234,18 @@ body{
    left: 0;
    color: white;
    font-family: 'Helvetica Neue';
+}
+
+.priv h1{
+   color:rgb(14,124,0);
+   font-size: 55px;
+   width: 100%;
+}
+.priv h2{
+  font-weight: 350;
+  font-size: 25px;
+  
+
 }
 
  
