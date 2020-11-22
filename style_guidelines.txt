@@ -16,7 +16,7 @@ These are the hex values for the colours of the website:
 
 Typography
 ----------
-We have used the Helvetica Neue font which creates a modern feel and look for the website.
+We have used the Open Sans font which creates a modern feel and look for the website.
 
 Icons
 -----
